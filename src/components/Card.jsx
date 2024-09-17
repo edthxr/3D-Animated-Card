@@ -26,18 +26,18 @@ const Card = () => {
           dragElastic={0.18}
           dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
           whileTap={{ cursor: 'grabbing' }}
-          className="relative w-[360px] min-h-[500px] bg-[#181818] rounded-[20px] border-[4px] border-black p-6 cursor-grab"
+          className="relative w-[360px] min-h-[500px] bg-[#e4dfdc] rounded-[20px] border-[4px] border-white p-6 cursor-grab"
         >
           <img src={LogoImg} alt="Logo" className="mb-4" />
-          <h1 className="text-3xl mb-4 text-white/50 font-extrabold">Nike Air Dunk Jumbo</h1>
-          <p className="max-w-[250px] text-white mb-4">
+          <h1 className="text-3xl mb-4 font-extrabold">Nike Air Dunk Jumbo</h1>
+          <p className="max-w-[250px] text-black mb-4">
             Taking the classic look of heritage Nike Running into a new realm, the Nike Air Jumbo brings you a fast-paced look ready and cool for today's world.
           </p>
           <div className="flex items-center gap-x-4 mb-8">
-            <button className="bg-white text-black text-base font-medium py-3 px-8 rounded-lg border border-transparent transition-all duration-300 ease-in-out transform hover:bg-transparent hover:text-white hover:border-white hover:scale-105">
+            <button className="bg-[#2d2b2c] text-white text-base font-medium py-3 px-8 rounded-lg border border-transparent transition-all duration-300 ease-in-out transform hover:bg-transparent hover:text-black hover:border-black hover:scale-105">
               Add to Bag
             </button>
-            <p className="text-xl font-bold text-white">$495.00</p>
+            <p className="text-xl font-bold text-black">$495.00</p>
           </div>
           <ul className="flex gap-x-2 mb-4">
             {colors.map((color, index) => (
